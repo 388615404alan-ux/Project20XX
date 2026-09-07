@@ -1,0 +1,35 @@
+# Unreal generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.sln
+*.VC.db
+*.opensdf
+*.sdf
+
+# IDE and OS files
+.idea/
+.vscode/
+*.suo
+*.user
+.DS_Store
+Thumbs.db
+
+# Local credentials and build exports
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/Builds/*
+!/Builds/.gitkeep
+
+# Keep Unreal source assets and project configuration under version control.
+!Game/**/Config/
+!Game/**/Config/**
+!Game/**/Content/
+!Game/**/Content/**
+!Game/**/Source/
+!Game/**/Source/**
